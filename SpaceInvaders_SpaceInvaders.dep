@@ -1,0 +1,12 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x57019B88)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\RV31\INC-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\CMSIS\Include-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5B39ED22)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\RV31\INC-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\CMSIS\Include-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5B39ED22)
+F (.\random.s)(0x5B34E7EA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\RV31\INC-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\CMSIS\Include-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x53466E52)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\RV31\INC-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\CMSIS\Include-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (..//tm4c123gh6pm.h)(0x51D462A2)
+I (Nokia5110.h)(0x5B39ED22)
+I (Random.h)(0x54A1339A)
+I (TExaS.h)(0x569B7146)
+F (.\TExaS.c)(0x569B7166)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\RV31\INC-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\CMSIS\Include-I E:\Campus\Courses\Embedded\TM4C123GXL\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569B7146)
